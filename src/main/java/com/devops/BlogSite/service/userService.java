@@ -4,5 +4,5 @@ import com.devops.BlogSite.model.user;
 
 public interface userService {
 
-    public user findUserByEmail(String email);
+    public user findUserByEmail(String email) throws Exception;
 }
